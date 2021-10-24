@@ -21,7 +21,7 @@ body {
 
 #pai {
   background-color: white;
-  width: 30%;
+  width: 25%;
   height: 60%;
   display: flex;
   justify-content: center;
@@ -32,6 +32,7 @@ body {
 img.logo_empresa {
   margin: 10px;
   padding: 0;
+  width: 5px 0 0 0;
 }
 
 h1 {
@@ -39,9 +40,7 @@ h1 {
 }
 
 span {
-  height: 0;
-  width: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 input {
@@ -52,6 +51,18 @@ input {
   border-left: none;
   border-right: none;
   outline: none;
-  height: 50%;
-  width: 100%;
+  width: 220px;
+  padding: 2px 0;
+}
+
+input#senha_de_acesso {
+  height: 10px;
+}
+
+div.nome_do_usuario {
+  margin: 10px 0;
+}
+
+div.senha_do_usuario {
+  margin: 5px 0;
 }
