@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="pai">
+      <img
+        id="logo_empresa"
+        src="icones/favicon.ico"
+        alt="Icone de montanhas"
+      />
+
+      <h1>Login</h1>
+
+      <form>
+        <div class="input_group">
+          <img
+            class="input_icone"
+            src="icones/envelope.png"
+            alt="icone de email"
+          />
+          <input required type="email" name="email" placeholder="E-mail" />
+        </div>
+
+        <div class="input_group">
+          <img
+            class="input_icone"
+            src="icones/icone_cadeado.png"
+            alt="icone de cadeado"
+          />
+          <input
+            required
+            type="password"
+            name="senha_de_acesso"
+            placeholder="Senha"
+          />
+        </div>
+
+        <input class="botao_submit" type="submit" value="enviar" />
+
+        <a href="cadastro.html">Cadastrar-se</a>
+      </form>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

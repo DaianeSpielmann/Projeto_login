@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="pai">
+      <h1>Faça seu Cadastro</h1>
+
+      <form>
+        <div class="input_group">
+          <img
+            class="input_icone"
+            src="icones/icone_usuario.png"
+            alt="icone de usuario"
+          />
+          <input
+            required
+            type="text"
+            name="nome_completo"
+            placeholder="Nome Completo"
+          />
+        </div>
+
+        <div class="input_group">
+          <img
+            class="input_icone"
+            src="icones/envelope.png"
+            alt="icone de envelope"
+          />
+          <input required type="email" name="email" placeholder="E-mail" />
+        </div>
+
+        <div class="input_group">
+          <img
+            class="input_icone"
+            src="icones/icone_cadeado.png"
+            alt="icone de cadeado"
+          />
+          <input required type="password" name="senha" placeholder="Senha" />
+        </div>
+
+        <input class="botao_submit" type="submit" value="Criar conta" />
+
+        <a href="login.html">Fazer Login</a>
+      </form>
+    </div>
+
+    <script src="cadastro.js"></script>
+  </body>
+</html>

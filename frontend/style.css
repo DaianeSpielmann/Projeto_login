@@ -19,6 +19,37 @@ body {
   height: 100%;
 }
 
+h1 {
+  padding-bottom: 6%;
+  margin: 0%;
+}
+
+span {
+  font-size: 12px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+  padding: 2px 0;
+  width: 80%;
+}
+
+a {
+  font-size: 12px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
 #pai {
   background-color: white;
   width: 25%;
@@ -27,42 +58,42 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.7);
 }
 
-img.logo_empresa {
+#logo_empresa {
   margin: 10px;
   padding: 0;
   width: 5px 0 0 0;
 }
 
-h1 {
-  padding: 0 0 6% 0;
-}
-
-span {
-  font-size: 12px;
-}
-
-input {
+.input_group {
+  margin: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  outline: none;
-  width: 220px;
-  padding: 2px 0;
 }
 
-input#senha_de_acesso {
-  height: 10px;
+.input_icone {
+  margin-right: 5px;
 }
 
-div.nome_do_usuario {
-  margin: 10px 0;
+.botao_submit {
+  border: 0;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.7);
+  border-radius: 30px;
+  width: 40%;
+  height: 30px;
+  background: linear-gradient(
+    to top right,
+    rgb(62, 136, 255),
+    rgb(250, 0, 208)
+  );
+  color: white;
+  margin: 10px;
 }
 
-div.senha_do_usuario {
-  margin: 5px 0;
+.botao_submit:hover {
+  cursor: pointer;
 }
